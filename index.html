@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/responsivo.css">
-
+    <script src="scripts.js"></script>
     <script src="https://kit.fontawesome.com/e1c9041fa0.js" crossorigin="anonymous"></script>
 
     <title>Massa Calc</title>
@@ -50,7 +50,7 @@
                     <thead>
                         <tr>
                             <th colspan="1">IMC</th>
-                            <td colspan="2"class="whitespace"></td>
+                            <td colspan="2" class="whitespace"> </td>
                             <th colspan="1">Classificação</th>
                         </tr>
                     </thead>
@@ -58,7 +58,7 @@
                         
                         <tr>
                             <td colspan="1">Menor que 18,5</td>
-                            <td colspan="2"class="whitespace"></td>
+                            <td colspan="2" class="whitespace"></td>
                             <td colspan="1">Magreza</td>
                         </tr>
                         <tr id="normal">
@@ -68,17 +68,17 @@
                         </tr>
                         <tr>
                             <td colspan="1">Entre 25,0 e 29,9</td>
-                            <td colspan="2"class="whitespace"></td>
+                            <td colspan="2" class="whitespace"></td>
                             <td colspan="1">Sobrepeso</td>
                         </tr>
                         <tr>
                             <td colspan="1">Entre 30,0 e 39,9</td>
-                            <td colspan="2"class="whitespace"></td>
+                            <td colspan="2" class="whitespace"></td>
                             <td colspan="1">Obesidade</td>
                         </tr>
                         <tr>
                             <td colspan="1">Maior que 40,0</td>
-                            <td colspan="2"class="whitespace"></td>
+                            <td colspan="2" class="whitespace"></td>
                             <td colspan="1">Obesidade grave</td>
                         </tr>
                     </tbody>
@@ -87,41 +87,11 @@
         </div>    
     </section>
 
-    <section class="creditos">
+    <div class="creditos">
         <div class="container">
-            <p>Desenvolvido por <a href="#">Eduardo de Souza</a>&nbsp<i class="fas fa-code"></i></p>
+            <p>Desenvolvido por <a href="#">Eduardo de Souza</a>&nbsp;<i class="fas fa-code"></i></p>
         </div>    
-    </section>
-
-<script>
-    function calcular() {
-    const pes = window.document.getElementById('peso');
-    const peso = Number.parseFloat(pes.value);
-    const alt = window.document.getElementById('altura');
-    const altura = alt.value;
-    const res = window.document.getElementById('res');
-    const tab = window.document.getElementById('normal');
-    const nm = tab.value;
-    if (peso <= 0 || altura <= 0) {
-        window.alert('Por favor, preencha os campos de peso e altura corretamente.')
-    } else if (peso.length > 4 || altura.length > 4) {
-        window.alert('Por favor, utilize apenas três dígitos nos campos de peso e altura.')
-    }
-    else {
-        result = peso / altura ** 2;
-        res1 = result.toString();
-        res2 = res1.substring(0, 5); 
-        res.innerHTML = `${res2}`;
-    }
-    }
-
-    function limpar() {
-        document.getElementById('peso').value = "";
-        document.getElementById('altura').value = "";
-        document.getElementById('res').innerHTML = "";
-    }
-   
-</script>   
+    </div>  
 
 </body>
 </html>
