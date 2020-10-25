@@ -1,0 +1,13 @@
+/*Estilo para tablet */
+
+@media only screen and (max-width:787px) {
+
+.rotulo {
+    font-size: 18px;
+}
+/* .txt-1 {
+    font-size: 18px;
+
+} */
+    
+}

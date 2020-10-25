@@ -1,0 +1,110 @@
+body {
+    background: linear-gradient( #11998e,#38ef7d );
+}
+.center {
+    margin: 0 auto;
+    display: block;
+    width:580px;
+}
+.campos {
+    background-color: #fff;
+    line-height: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.titulo {
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+}
+.txt {
+    font-size: 22px;
+    display: inline-block;
+}
+.rotulo {
+    font-size: 22px;
+}
+.btn-1 {
+    width: 120px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #075E54;
+    color: #fff;
+    border: 0;
+    font-size: 18px;
+    box-shadow: 1px 1px 4px black;
+    margin-right: 15px 15px;
+}
+.btn-1:hover {
+    transition: ease 0.4s;
+    background-color: #128C7E;
+}
+.campo {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30px;
+    width: 95px;
+}
+.campo:focus {
+    outline: none;
+}
+.scale {
+    color: lightskyblue;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    top: -100px;
+    left: 0px;
+}
+.result {
+    margin: 15px 0;
+}
+.res {
+    display: inline-block;
+    width: 95px;
+    height: 40px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #075E54;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 1px 1px 4px black;
+}
+/*=========TAbela=============*/
+
+.tabela {
+    margin-top: 20px;
+}
+.tabela h1 {
+    color: #000;
+}
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #999;
+    text-align: left;
+    border-right: none;
+    border-left: none;
+}
+.whitespace {
+    width: 350px;
+}
+/*===creditos====*/
+
+.creditos {
+    background-color: black;
+    height: 50px;
+}
+.creditos p {
+    padding: 10px;
+    text-align: right;
+    color: #fff;
+    font-size: 16px;
+}
+.creditos a, i {
+    color: #FF5420 !important;
+}
