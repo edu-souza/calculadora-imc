@@ -1,3 +1,4 @@
+
 body {
     background: linear-gradient( #11998e,#38ef7d );
 }
@@ -108,3 +109,7 @@ td, th {
 .creditos a, i {
     color: #FF5420 !important;
 }
+* {
+    
+    outline: solid #f00 1px !important;
+  }
