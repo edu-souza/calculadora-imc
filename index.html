@@ -10,42 +10,27 @@
     <link rel="stylesheet" type="text/css" href="css/responsivo.css">
     <script src="scripts.js"></script>
     <script src="https://kit.fontawesome.com/e1c9041fa0.js" crossorigin="anonymous"></script>
-
     <title>Massa Calc</title>
 </head>
 <body>
     <section class="container app-principal">
-        <h1 class="titulo">Calculadora de Índice de Massa Corporal</h1>
-
         <div class="center">
             <div class="campos grid-10">
-
-                <p class="txt">Descubra agora, qual é o seu índice de massa corporal!</p><br>
-
+                <h2 class="titulo">Descubra agora, qual é o seu índice de massa corporal!</h2><br>
                     <label for="peso" class="rotulo">Insira o seu peso: <input class="campo" type="number" id="peso" name="peso" placeholder="Ex: 68,0" min="0" step="0.1" max=100>kg</label><br>
-                   
-
                     <label for="altura" class="rotulo">Insira a sua altura:<input class="campo" type="number" id="altura" name="altura" placeholder="Ex: 1,74" min="0" step="0.01">m</label><br>
-                    
-
                     <button type="submit" class="btn-1" onclick="calcular()">Calcular</button>
-
                     <button type="reset" class="btn-1" onclick="limpar()">Limpar</button><br>
-                <div class="result">
                     <p class="txt">O seu IMC é de:</p>
-
                     <div class="res" id="res"></div>
-
-                </div>    
-        </div>
-
+            </div>
         </div>    
     </section>
     
     <section class="container tabela">
         <div class="center">
             <div class="campos grid-10">
-                <h1 class="titulo">Interpretação dos resultados</h1>
+                <h2 class="titulo">Interpretação dos resultados</h2>
                 <table class="table">
                     <thead>
                         <tr>
@@ -55,7 +40,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        
                         <tr>
                             <td colspan="1">Menor que 18,5</td>
                             <td colspan="2" class="whitespace"></td>
@@ -86,12 +70,10 @@
             </div>
         </div>    
     </section>
-
     <div class="creditos">
         <div class="container">
             <p>Desenvolvido por <a href="#">Eduardo de Souza</a>&nbsp;<i class="fas fa-code"></i></p>
         </div>    
     </div>  
-
 </body>
 </html>

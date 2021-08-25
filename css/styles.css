@@ -1,6 +1,6 @@
 
 body {
-    background: linear-gradient( #11998e,#38ef7d );
+    background-color: rgb(221, 220, 220);
 }
 .center {
     margin: 0 auto;
@@ -8,17 +8,20 @@ body {
     width:580px;
 }
 .campos {
-    background-color: #fff;
     line-height: 50px;
     padding: 10px;
     border-radius: 15px;
+    background-color: #fff;
+    border: 0.5px solid #999;
     margin: 20px;
+    text-align: center;
 }
 .titulo {
     font-size: 36px;
     text-align: center;
     color: #fff;
     padding: 10px 0;
+    color: #FF5420;
 }
 .txt {
     font-size: 22px;
@@ -31,8 +34,8 @@ body {
     width: 120px;
     border-radius: 5px;
     padding: 10px;
-    background-color: #075E54;
-    color: #fff;
+    background-color: #FF5420;;
+    color: #000;
     border: 0;
     font-size: 18px;
     box-shadow: 1px 1px 4px black;
@@ -40,7 +43,7 @@ body {
 }
 .btn-1:hover {
     transition: ease 0.4s;
-    background-color: #128C7E;
+    background: transparent;
 }
 .campo {
     border: 1px solid #ccc;
@@ -69,8 +72,7 @@ body {
     padding: 3px;
     text-align: center;
     border-radius: 5px;
-    background-color: #075E54;
-    color: #fff;
+    color: #000000;
     font-size: 18px;
     box-shadow: 1px 1px 4px black;
 }
